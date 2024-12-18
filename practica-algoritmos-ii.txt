@@ -1,0 +1,26 @@
+-------------------------------
+Problema:
+El usuario quiere saber cuál es el área de un círculo teniendo el radio.
+
+Algoritmo:
+1. Solicitar al usuario que ingrese el radio del círculo.
+2. Calcular el área del círculo utilizando la fórmula a = pi x r^2.
+3. Mostrar al usuario el área calculada.
+---------------------------------
+
+Pseudocódigo:
+
+Inicio
+    // Paso 1: Solicitar al usuario que ingrese el radio del círculo.
+    - "Por favor, ingrese el radio del círculo: "
+    Leer el dato y asignarlo a la variable radio.
+    Transformar el dato a float, ya que es ingresado como una str.
+    ¿Qué pasa con las unidades? ¿mm, cm, m?
+
+    // Paso 2: Calcular el área del círculo.
+    Realizar los cálculos con la variable area = pi x radio^2
+
+    // Paso 3: Mostrarle al usuario el resultado del cálculo.
+    - "El área del círculo con radio", radio, "es: ", area"
+
+
